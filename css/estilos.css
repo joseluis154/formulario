@@ -1,23 +1,25 @@
-form{
-    width: 30%;
+form{ width: 40%;
     padding: 3%;
-    border-radius: 10px;
     margin: auto;
     background-color: rgb(13, 219, 226);
+    
+ /*este div hace que no se vea el bloque*/
+div{display: ;
+        flex-direction: column;
+        margin: 5%;}
+    
+label{margin-bottom:  5px;
+    font-weight: bold;}
+    
+input{ margin-bottom: 12px;}
+    
+ .login{ border: 1px solid black;
+        padding: 15px 5px;
+        background-color:rgb(173, 186, 243);
+        margin-bottom: 10px;}
+
+fieldset{ border: 1px solid blue;}
+
+@media (max-width:618px){form {width: 80%;}}
 }
 
-div {
-    display: flex;
-    flex-direction: column;
-    margin: 0 10%;
-}
-
-label{
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.login{
-    border: 1px solid black;
-    padding: 15px 5px;
-}
